@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53FBFBF0643E488989DD66C0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C3799C3D044BE99BDB1CC2 /* libPods.a */; };
+		94D1C752193E0E4D00234501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D1C751193E0E4D00234501 /* AppDelegate.swift */; };
+		94D1C754193E0E4D00234501 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D1C753193E0E4D00234501 /* Images.xcassets */; };
+		94D1C760193E0E4D00234501 /* SwacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D1C75F193E0E4D00234501 /* SwacTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94D1C75A193E0E4D00234501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D1C744193E0E4D00234501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D1C74B193E0E4D00234501;
+			remoteInfo = Swac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41C3799C3D044BE99BDB1CC2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		650C1C5AF7714BB683F1A61D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		94D1C74C193E0E4D00234501 /* Swac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D1C750193E0E4D00234501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D1C751193E0E4D00234501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94D1C753193E0E4D00234501 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94D1C759193E0E4D00234501 /* SwacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D1C75E193E0E4D00234501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D1C75F193E0E4D00234501 /* SwacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwacTests.swift; sourceTree = "<group>"; };
+		94D1C769193E0EB000234501 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D1C749193E0E4D00234501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FBFBF0643E488989DD66C0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D1C756193E0E4D00234501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB848E0093342A4A39B6A5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C3799C3D044BE99BDB1CC2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94D1C743193E0E4D00234501 = {
+			isa = PBXGroup;
+			children = (
+				94D1C74E193E0E4D00234501 /* Swac */,
+				94D1C75C193E0E4D00234501 /* SwacTests */,
+				94D1C74D193E0E4D00234501 /* Products */,
+				650C1C5AF7714BB683F1A61D /* Pods.xcconfig */,
+				2BB848E0093342A4A39B6A5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94D1C74D193E0E4D00234501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D1C74C193E0E4D00234501 /* Swac.app */,
+				94D1C759193E0E4D00234501 /* SwacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D1C74E193E0E4D00234501 /* Swac */ = {
+			isa = PBXGroup;
+			children = (
+				94D1C751193E0E4D00234501 /* AppDelegate.swift */,
+				94D1C753193E0E4D00234501 /* Images.xcassets */,
+				94D1C74F193E0E4D00234501 /* Supporting Files */,
+				94D1C769193E0EB000234501 /* Bridging.h */,
+			);
+			path = Swac;
+			sourceTree = "<group>";
+		};
+		94D1C74F193E0E4D00234501 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D1C750193E0E4D00234501 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94D1C75C193E0E4D00234501 /* SwacTests */ = {
+			isa = PBXGroup;
+			children = (
+				94D1C75F193E0E4D00234501 /* SwacTests.swift */,
+				94D1C75D193E0E4D00234501 /* Supporting Files */,
+			);
+			path = SwacTests;
+			sourceTree = "<group>";
+		};
+		94D1C75D193E0E4D00234501 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D1C75E193E0E4D00234501 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94D1C74B193E0E4D00234501 /* Swac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D1C763193E0E4D00234501 /* Build configuration list for PBXNativeTarget "Swac" */;
+			buildPhases = (
+				351142D6710E42358D3E9079 /* Check Pods Manifest.lock */,
+				94D1C748193E0E4D00234501 /* Sources */,
+				94D1C749193E0E4D00234501 /* Frameworks */,
+				94D1C74A193E0E4D00234501 /* Resources */,
+				543FBD54A29E471D80C5367C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swac;
+			productName = Swac;
+			productReference = 94D1C74C193E0E4D00234501 /* Swac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94D1C758193E0E4D00234501 /* SwacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D1C766193E0E4D00234501 /* Build configuration list for PBXNativeTarget "SwacTests" */;
+			buildPhases = (
+				94D1C755193E0E4D00234501 /* Sources */,
+				94D1C756193E0E4D00234501 /* Frameworks */,
+				94D1C757193E0E4D00234501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D1C75B193E0E4D00234501 /* PBXTargetDependency */,
+			);
+			name = SwacTests;
+			productName = SwacTests;
+			productReference = 94D1C759193E0E4D00234501 /* SwacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D1C744193E0E4D00234501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ullrich;
+				TargetAttributes = {
+					94D1C74B193E0E4D00234501 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					94D1C758193E0E4D00234501 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 94D1C74B193E0E4D00234501;
+					};
+				};
+			};
+			buildConfigurationList = 94D1C747193E0E4D00234501 /* Build configuration list for PBXProject "Swac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94D1C743193E0E4D00234501;
+			productRefGroup = 94D1C74D193E0E4D00234501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D1C74B193E0E4D00234501 /* Swac */,
+				94D1C758193E0E4D00234501 /* SwacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D1C74A193E0E4D00234501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D1C754193E0E4D00234501 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D1C757193E0E4D00234501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		351142D6710E42358D3E9079 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		543FBD54A29E471D80C5367C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D1C748193E0E4D00234501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D1C752193E0E4D00234501 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D1C755193E0E4D00234501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D1C760193E0E4D00234501 /* SwacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94D1C75B193E0E4D00234501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94D1C74B193E0E4D00234501 /* Swac */;
+			targetProxy = 94D1C75A193E0E4D00234501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94D1C761193E0E4D00234501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94D1C762193E0E4D00234501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D1C764193E0E4D00234501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650C1C5AF7714BB683F1A61D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Swac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Swac/Bridging.h;
+			};
+			name = Debug;
+		};
+		94D1C765193E0E4D00234501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650C1C5AF7714BB683F1A61D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Swac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Swac/Bridging.h;
+			};
+			name = Release;
+		};
+		94D1C767193E0E4D00234501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swac.app/Swac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		94D1C768193E0E4D00234501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swac.app/Swac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D1C747193E0E4D00234501 /* Build configuration list for PBXProject "Swac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D1C761193E0E4D00234501 /* Debug */,
+				94D1C762193E0E4D00234501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D1C763193E0E4D00234501 /* Build configuration list for PBXNativeTarget "Swac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D1C764193E0E4D00234501 /* Debug */,
+				94D1C765193E0E4D00234501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D1C766193E0E4D00234501 /* Build configuration list for PBXNativeTarget "SwacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D1C767193E0E4D00234501 /* Debug */,
+				94D1C768193E0E4D00234501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94D1C744193E0E4D00234501 /* Project object */;
+}
