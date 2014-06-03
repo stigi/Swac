@@ -11,6 +11,7 @@
 		94D1C752193E0E4D00234501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D1C751193E0E4D00234501 /* AppDelegate.swift */; };
 		94D1C754193E0E4D00234501 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D1C753193E0E4D00234501 /* Images.xcassets */; };
 		94D1C760193E0E4D00234501 /* SwacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D1C75F193E0E4D00234501 /* SwacTests.swift */; };
+		94D1C76C193E10F100234501 /* MyOCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1C76B193E10F100234501 /* MyOCClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 		94D1C75E193E0E4D00234501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D1C75F193E0E4D00234501 /* SwacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwacTests.swift; sourceTree = "<group>"; };
 		94D1C769193E0EB000234501 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		94D1C76A193E10F100234501 /* MyOCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOCClass.h; sourceTree = "<group>"; };
+		94D1C76B193E10F100234501 /* MyOCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOCClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				94D1C751193E0E4D00234501 /* AppDelegate.swift */,
+				94D1C76A193E10F100234501 /* MyOCClass.h */,
+				94D1C76B193E10F100234501 /* MyOCClass.m */,
 				94D1C753193E0E4D00234501 /* Images.xcassets */,
 				94D1C74F193E0E4D00234501 /* Supporting Files */,
 				94D1C769193E0EB000234501 /* Bridging.h */,
@@ -251,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D1C76C193E10F100234501 /* MyOCClass.m in Sources */,
 				94D1C752193E0E4D00234501 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

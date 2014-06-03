@@ -20,11 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.makeKeyAndVisible()
         
-        
-        // just trying to call anything from RAC
-        
-        RACSubject()
-        
+        let x = MyOCClass()
         
         return true
     }
